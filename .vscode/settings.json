@@ -38,5 +38,17 @@
     "dist": true
   },
   "typescriptHero.imports.organizeOnSave": true,
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "DOCKER",
+      "database": "waproject",
+      "username": "docker",
+      "password": "123mudar"
+    }
+  ]
 }

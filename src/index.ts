@@ -28,8 +28,8 @@ async function bootstrap(): Promise<void> {
   app.useGlobalFilters(new ExceptionFilter(httpAdapter));
 
   const swaggerOptions = new DocumentBuilder()
-    .setTitle('Wa Project API')
-    .setDescription('Wa Project API')
+    .setTitle('wa-orders')
+    .setDescription('wa-orders')
     .setVersion(`1.${VERSION}`)
     .addBearerAuth()
     .build();
